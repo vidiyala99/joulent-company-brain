@@ -1,0 +1,6 @@
+SOURCE: https://people.com/chevron-strikes-deal-with-microsoft-to-power-massive-ai-data-center-12004206 (People, 2026-06-22; fetched 2026-11-18 via TinyFish; verbatim excerpt)
+* The data center will get its energy from natural gas produced from the energy company Joulent's fields in the area
+According to the Wall Street Journal, the oil company will work with the energy company Joulent to build the 2.7-gigawatt campus on more than 2,000 acres of land in Reeves County.
+The data center will get its energy from natural gas produced from Joulent's fields in the area as part of its first big AI data-center project, according to a separate news release.
+A majority of the generation will come from large GE Vernova gas turbines, which will then be supplemented by turbines made by a subsidiary of Caterpillar Inc.
+The data center is expected to start receiving power in 2028.

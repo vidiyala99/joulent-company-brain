@@ -1,0 +1,45 @@
+           Plain Language Summary for New Source Review (NSR) Initial Application for
+
+                  Air New Source Review Permit Number 181895, GHGPSDTX260 and
+
+                                                          PSDTX1684
+The following summary is provided for this pending air permit application being reviewed by the Texas
+Commission on Environmental Quality as required by 30 Texas Administrative Code Chapter 39. The information
+provided in this summary may change during the technical review of the application and are not federal
+enforceable representations of the permit application.
+
+Energy Forge One LLC (EFO) has submitted an air construction permit application to request authorization for a
+greenfield natural gas-fired turbine Power Plant. The proposed Power Plant (Kilby site) is located near Pecos,
+Reeves County, Texas. EFO is submitting a Core Data Form as part of this application to be assigned a Texas
+Commission on Environmental Quality (TCEQ) Customer Reference Number (CN606441046) and Regulated
+Entity Number (RN112304498).
+
+EFO has listed in the application the pollutants and amounts that will be emitted for each facility. Below is the
+total amount for each pollutant that is proposed to be emitted each year for all the facilities.
+
+Pollutant       Proposed Emissions
+                    (tons per year)
+
+      VOC                                                                                                        268.82
+        PM                                                                                                       605.49
+      PM10                                                                                                       605.49
+      PM2.5                                                                                                      605.49
+       NOx                                                                                                       886.34
+        CO                                                                                                       692.32
+       SO2                                                                                                       177.05
+       NH3                                                                                                       684.03
+      HAPs                                                                                                       139.29
+     H2SO4                                                                                                       194.82
+       CO2                                                                                                  11,548,876.06
+       CH4                                                                                                       316.99
+       N2O                                                                                                       21.72
+CO2 Equivalent                                                                                              11,564,704.59
+
+The proposed natural gas turbines will be controlled by selective catalytic reduction for NOx, and oxidation
+catalyst for CO and VOC. Other emission sources also meet TCEQ BACT.
+
+TCEQ - (APD-ID 104v1.0, Revised 04/22) Plain Language Summary for NSR Initial (English)
+This form is for use by sources subject to air quality permit requirements and may be revised periodically
+
+Page 1 of 1
+

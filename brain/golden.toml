@@ -1,0 +1,168 @@
+# Hand labels, written from the corpus before the checker was scored (2026-11-18).
+# [[question]]: the brain and the naive baseline both answer these.
+#   accept   = values an answer may state for the fact; anything else is a wrong answer
+#   require  = values a complete answer must state (FID must mention the possible 2027 slip)
+# [[trap]]: hand-written answers. kind = expected failure ("" = a correct control that must stay clean).
+
+[[question]]
+q = "What is Kilby's generation capacity?"
+attr = "plant_capacity_gw"
+accept = ["2.67"]           # 2.7 passes via the 2% tolerance (rounding)
+require = ["2.67"]
+gold = "ngv-factsheet: 2.67 GW co-located power facility"
+
+[[question]]
+q = "How big is Microsoft's Pecos campus load?"
+attr = "campus_load_gw"
+accept = ["2"]
+require = ["2"]
+gold = "news-cutrer: Microsoft formally commits to a 2 GW Pecos campus (single news source)"
+
+[[question]]
+q = "When is the Kilby final investment decision?"
+attr = "fid_year"
+accept = ["2026", "2027?"]
+require = ["2026", "2027?"]
+gold = "ngv-factsheet: expected in 2026; news-tnw (Oct 1): could slip to 2027"
+
+[[question]]
+q = "When does Kilby reach first power?"
+attr = "first_power_year"
+accept = ["2028"]
+require = ["2028"]
+gold = "ngv-factsheet; news-insurancejournal (Nov 2): first power in 2028"
+
+[[question]]
+q = "Who holds the Microsoft PPA for Kilby?"
+attr = "ppa_holder"
+accept = ["Chevron-Joulent 50/50 JV"]
+require = ["Chevron-Joulent 50/50 JV"]
+gold = "news-tnw (Oct 1): Energy Forge One, a 50/50 JV; engine1-launch (Jun 22) said wholly owned Chevron subsidiary"
+
+[[question]]
+q = "Whose gas fuels Kilby?"
+attr = "gas_source_owner"
+accept = ["Chevron"]
+require = ["Chevron"]
+gold = "news-qz, news-aea: Chevron's Permian production; news-people says Joulent's fields (wrong)"
+
+[[question]]
+q = "What is Joulent's stake in Kilby?"
+attr = "joulent_kilby_stake"
+accept = ["50%"]
+require = ["50%"]
+gold = "joulent-ngv-release (Jul 1): formalized a 50% ownership interest"
+
+[[question]]
+q = "What stake did National Grid buy in Joulent, what percent?"
+attr = "ngv_stake"
+accept = ["35%"]
+require = ["35%"]
+gold = "ngv-factsheet: $1.75 billion to secure a 35% interest"
+
+[[question]]
+q = "How much will Kilby cost?"
+attr = "project_cost"
+accept = ["undisclosed", "$7B estimate"]
+require = ["undisclosed"]
+gold = "news-qz: Chevron has not disclosed a cost estimate; ~$7B is an outside estimate"
+
+[[trap]]
+text = "Kilby is a 2 GW plant."
+cites = ["news-cutrer"]
+kind = "ENTITY_MIXUP"
+
+[[trap]]
+text = "Kilby is a 3 GW plant."
+cites = ["news-cutrer"]
+kind = "CONTRADICTED"
+
+[[trap]]
+text = "Kilby burns natural gas produced from Joulent's fields."
+cites = ["news-people"]
+kind = "CONTRADICTED"
+
+[[trap]]
+text = "The Kilby final investment decision is expected in 2026."
+cites = ["ngv-factsheet"]
+kind = "STALE"
+
+[[trap]]
+text = "Energy Forge One, a wholly owned Chevron subsidiary, holds the 20-year power purchase agreement."
+cites = ["engine1-launch"]
+kind = "STALE"
+
+[[trap]]
+text = "Kilby first power is targeted for 2027."
+cites = ["ngv-factsheet"]
+kind = "UNGROUNDED"
+
+[[trap]]
+text = "Engine No. 1 holds an option to take on half the project's ownership."
+cites = ["news-qz"]
+kind = "STALE"
+
+[[trap]]
+text = "Kilby's total costs of $7 billion were announced at signing."
+cites = ["news-startupfortune"]
+kind = "CONTRADICTED"
+
+[[trap]]
+text = "National Grid Ventures paid $1.75 billion to secure a 50% interest."
+cites = ["ngv-factsheet"]
+kind = "UNGROUNDED"
+
+[[trap]]
+text = "Kilby is a 2.67 GW plant."
+cites = []
+kind = "UNGROUNDED"
+
+[[trap]]
+text = "Kilby is a 2.7 GW plant."
+cites = ["news-ngh1"]
+kind = ""
+
+[[trap]]
+text = "Kilby first power is targeted for 2028."
+cites = ["news-insurancejournal"]
+kind = ""
+
+[[trap]]
+text = "Kilby burns natural gas from Chevron's existing Permian production."
+cites = ["news-qz"]
+kind = ""
+
+[[trap]]
+text = "Joulent holds a 50% ownership stake in Kilby."
+cites = ["joulent-ngv-release"]
+kind = ""
+
+[[trap]]
+text = "The Kilby final investment decision is expected in 2026. Since October, reporting says the final investment decision could slip to 2027."
+cites = ["ngv-factsheet", "news-tnw"]
+kind = ""
+
+[[trap]]
+text = "Microsoft commits to a 2 GW Pecos campus."
+cites = ["news-cutrer"]
+kind = ""
+
+[[trap]]
+text = "Chevron has not disclosed the project's cost."
+cites = ["news-qz"]
+kind = ""
+
+[[trap]]
+text = "National Grid Ventures paid $1.75 billion to secure a 35% interest."
+cites = ["ngv-factsheet"]
+kind = ""
+
+[[trap]]
+text = "Energy Forge One, a 50/50 joint venture between Chevron and Joulent, holds a 20-year power deal with Microsoft."
+cites = ["news-tnw"]
+kind = ""
+
+[[trap]]
+text = "Kilby is a 2.67 GW plant."
+cites = ["ngv-factsheet"]
+kind = ""

@@ -1,0 +1,150 @@
+Joulent brain eval. corpus: 19 docs, ledger: 49 claims
+
+== Questions: brain vs naive RAG (top BM25 sentence) ==
+
+Q: What is Kilby's generation capacity?
+   gold: ngv-factsheet: 2.67 GW co-located power facility
+   brain: right      cites=['engine1-launch', 'joulent-ngv-release', 'news-aea', 'news-etdc', 'news-ngh1', 'news-people', 'news-qz', 'news-tnw', 'ngv-factsheet', 'news-cutrer']
+      text: Kilby is a 2.67 GW plant [engine1-launch, joulent-ngv-release, news-aea, news-etdc, news-ngh1, news-people, news-qz, news-tnw, ngv-factsheet]. Sources disagree: news-cutrer say 3 (weight 1 vs 15).
+      checker: clean
+   naive: right      cites=['joulent-ngv-release']
+      text: Kilby will deliver approximately 2.67 gigawatts of generation capacity to support a Microsoft-operated data center campus under a 20-year power purchase agreement.
+      checker: clean
+
+Q: How big is Microsoft's Pecos campus load?
+   gold: news-cutrer: Microsoft formally commits to a 2 GW Pecos campus (single news source)
+   brain: right      cites=['news-cutrer']
+      text: Microsoft commits to a 2 GW Pecos campus [news-cutrer].
+      checker: clean
+   naive: right      cites=['news-cutrer']
+      text: Related: Microsoft formally commits to a 2 GW Pecos campus, powered behind-the-meter by Chevron's 'Project Kilby' gas plant.
+      checker: clean
+
+Q: When is the Kilby final investment decision?
+   gold: ngv-factsheet: expected in 2026; news-tnw (Oct 1): could slip to 2027
+   brain: right      cites=['news-aea', 'news-cutrer', 'news-qz', 'news-startupfortune', 'news-tnw', 'ngv-factsheet']
+      text: the Kilby final investment decision is expected in 2026 [news-aea, news-cutrer, news-qz, news-startupfortune, news-tnw, ngv-factsheet]. Since 2026-10-01, reporting says the final investment decision could slip to 2027 [news-cutrer, news-tnw]; no decision is an
+      checker: clean
+   naive: INCOMPLETE cites=['ngv-factsheet']
+      text: A Final Investment Decision on Project Kilby is expected in 2026, with first power delivery in 2028.
+      checker: ['STALE']
+        - STALE: fid_year=2026 (newest support 2026-07-01); news-tnw (2026-10-01) says 2027?
+
+Q: When does Kilby reach first power?
+   gold: ngv-factsheet; news-insurancejournal (Nov 2): first power in 2028
+   brain: right      cites=['news-aea', 'news-insurancejournal', 'news-ngh1', 'news-people', 'news-qz', 'news-startupfortune', 'news-tnw', 'ngv-factsheet']
+      text: Kilby first power is targeted for 2028 [news-aea, news-insurancejournal, news-ngh1, news-people, news-qz, news-startupfortune, news-tnw, ngv-factsheet].
+      checker: clean
+   naive: right      cites=['ngv-factsheet']
+      text: A Final Investment Decision on Project Kilby is expected in 2026, with first power delivery in 2028.
+      checker: ['STALE']
+        - STALE: fid_year=2026 (newest support 2026-07-01); news-tnw (2026-10-01) says 2027?
+
+Q: Who holds the Microsoft PPA for Kilby?
+   gold: news-tnw (Oct 1): Energy Forge One, a 50/50 JV; engine1-launch (Jun 22) said wholly owned Chevron subsidiary
+   brain: right      cites=['news-tnw', 'engine1-launch']
+      text: Energy Forge One holds the 20-year power purchase agreement (Chevron-Joulent 50/50 JV) [news-tnw]. Earlier (2026-06-22) engine1-launch said Chevron subsidiary; superseded by the newer source.
+      checker: clean
+   naive: no answer  cites=['ngv-factsheet']
+      text: Project Kilby: initially delivering 2.67GW of firm power under a signed 20-year PPA with Microsoft
+      checker: clean
+
+Q: Whose gas fuels Kilby?
+   gold: news-qz, news-aea: Chevron's Permian production; news-people says Joulent's fields (wrong)
+   brain: right      cites=['news-aea', 'news-qz', 'news-people']
+      text: Kilby burns natural gas from Chevron's existing Permian production [news-aea, news-qz]. Sources disagree: news-people say Joulent (weight 1 vs 2).
+      checker: clean
+   naive: no answer  cites=['engine1-launch']
+      text: As Joulent’s first power project, Engine No. 1 and Chevron have been collaborating on a natural-gas power facility project in West Texas known as Project Kilby (“Kilby”).
+      checker: clean
+
+Q: What is Joulent's stake in Kilby?
+   gold: joulent-ngv-release (Jul 1): formalized a 50% ownership interest
+   brain: right      cites=['joulent-ngv-release', 'news-etdc', 'ngv-factsheet', 'news-qz']
+      text: Joulent holds a 50% ownership stake in Kilby (50%) [joulent-ngv-release, news-etdc, ngv-factsheet]. Earlier (2026-06-22) news-qz said option on 50%; superseded by the newer source.
+      checker: clean
+   naive: right      cites=['news-etdc']
+      text: Joulent has also secured a 50% ownership stake in Project Kilby.
+      checker: clean
+
+Q: What stake did National Grid buy in Joulent, what percent?
+   gold: ngv-factsheet: $1.75 billion to secure a 35% interest
+   brain: right      cites=['ngv-factsheet']
+      text: National Grid Ventures paid $1.75 billion to secure a 35% interest [ngv-factsheet].
+      checker: clean
+   naive: no answer  cites=['news-etdc']
+      text: Joulent has also secured a 50% ownership stake in Project Kilby.
+      checker: clean
+
+Q: How much will Kilby cost?
+   gold: news-qz: Chevron has not disclosed a cost estimate; ~$7B is an outside estimate
+   brain: right      cites=['news-qz', 'news-startupfortune']
+      text: Chevron has not disclosed the project's cost [news-qz, news-startupfortune]. Sources disagree: news-startupfortune say $7B (weight 1 vs 2). Sources disagree: news-qz say $7B estimate (weight 1 vs 2).
+      checker: clean
+   naive: no answer  cites=['joulent-power-stack']
+      text: Lower Cost
+      checker: clean
+
+brain: right 9
+
+naive: INCOMPLETE 1, no answer 4, right 4
+naive answers wrong or incomplete: 1; checker flagged 1 of them
+
+== Checker on hand-labeled answers ==
+- [ENTITY_MIXUP] Kilby is a 2 GW plant. cites=['news-cutrer']
+    -> caught
+       ENTITY_MIXUP: 2 GW is the campus size (news-cutrer), not plant capacity
+- [CONTRADICTED] Kilby is a 3 GW plant. cites=['news-cutrer']
+    -> caught
+       CONTRADICTED: plant_capacity_gw=3; weight of sources says 2.67 (15 vs 1)
+- [CONTRADICTED] Kilby burns natural gas produced from Joulent's fields. cites=['news-people']
+    -> caught
+       CONTRADICTED: gas_source_owner=Joulent; weight of sources says Chevron (2 vs 1)
+- [STALE] The Kilby final investment decision is expected in 2026. cites=['ngv-factsheet']
+    -> caught
+       STALE: fid_year=2026 (newest support 2026-07-01); news-tnw (2026-10-01) says 2027?
+- [STALE] Energy Forge One, a wholly owned Chevron subsidiary, holds the 20-year power purchase agre cites=['engine1-launch']
+    -> caught
+       CONTRADICTED: ppa_holder=Chevron subsidiary; weight of sources says Chevron-Joulent 50/50 JV (1 vs 3)
+       STALE: ppa_holder=Chevron subsidiary (newest support 2026-06-22); news-tnw (2026-10-01) says Chevron-Joulent 50/50 JV
+- [UNGROUNDED] Kilby first power is targeted for 2027. cites=['ngv-factsheet']
+    -> caught
+       UNGROUNDED: first_power_year=2027 not stated by any cited source
+       CONTRADICTED: first_power_year=2027; weight of sources says 2028 (10 vs 0)
+- [STALE] Engine No. 1 holds an option to take on half the project's ownership. cites=['news-qz']
+    -> caught
+       CONTRADICTED: joulent_kilby_stake=option on 50%; weight of sources says 50% (7 vs 1)
+       STALE: joulent_kilby_stake=option on 50% (newest support 2026-06-22); news-etdc (2026-07-02) says 50%
+- [CONTRADICTED] Kilby's total costs of $7 billion were announced at signing. cites=['news-startupfortune']
+    -> caught
+       CONTRADICTED: project_cost=$7B; weight of sources says undisclosed (2 vs 1)
+- [UNGROUNDED] National Grid Ventures paid $1.75 billion to secure a 50% interest. cites=['ngv-factsheet']
+    -> caught
+       UNGROUNDED: ngv_stake=50% not stated by any cited source
+       CONTRADICTED: ngv_stake=50%; weight of sources says 35% (3 vs 0)
+- [UNGROUNDED] Kilby is a 2.67 GW plant. cites=[]
+    -> caught
+       UNGROUNDED: no citations
+- [correct] Kilby is a 2.7 GW plant. cites=['news-ngh1']
+    -> clean (correct)
+- [correct] Kilby first power is targeted for 2028. cites=['news-insurancejournal']
+    -> clean (correct)
+- [correct] Kilby burns natural gas from Chevron's existing Permian production. cites=['news-qz']
+    -> clean (correct)
+- [correct] Joulent holds a 50% ownership stake in Kilby. cites=['joulent-ngv-release']
+    -> clean (correct)
+- [correct] The Kilby final investment decision is expected in 2026. Since October, reporting says the cites=['ngv-factsheet', 'news-tnw']
+    -> clean (correct)
+- [correct] Microsoft commits to a 2 GW Pecos campus. cites=['news-cutrer']
+    -> clean (correct)
+- [correct] Chevron has not disclosed the project's cost. cites=['news-qz']
+    -> clean (correct)
+- [correct] National Grid Ventures paid $1.75 billion to secure a 35% interest. cites=['ngv-factsheet']
+    -> clean (correct)
+- [correct] Energy Forge One, a 50/50 joint venture between Chevron and Joulent, holds a 20-year power cites=['news-tnw']
+    -> clean (correct)
+- [correct] Kilby is a 2.67 GW plant. cites=['ngv-factsheet']
+    -> clean (correct)
+
+wrong answers: 10, caught 10, missed 0, labeled kind matched 10
+correct answers: 10, false flags 0

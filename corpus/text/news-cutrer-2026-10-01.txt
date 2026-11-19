@@ -1,0 +1,4 @@
+SOURCE: https://datacenters.cutrerlabs.com/intel/2026-10-kilby-fid-may-slip-2027 (Texas AI Data Center Intelligence Hub, 2026-10-01; fetched 2026-11-18 via TinyFish; verbatim excerpt, public preview only)
+Semafor reports that Chevron's final investment decision on Project Kilby, the nearly 3 GW of behind-the-meter gas turbines planned to power Microsoft's Pecos campus, was expected by the end of 2026 and could now move into 2027 after Gov. Greg Abbott's data center permit pause in September.
+Related: The governor directs TCEQ to halt all permits sought by data centers until ERCOT completes its audit. Sep 21, 2026. Regulatory.
+Related: Microsoft formally commits to a 2 GW Pecos campus, powered behind-the-meter by Chevron's 'Project Kilby' gas plant. Jun 22, 2026. Milestone.

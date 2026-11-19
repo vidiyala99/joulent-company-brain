@@ -1,0 +1,6 @@
+SOURCE: https://thenextweb.com/news/texas-politics-delay-chevron-microsoft-data-centre (The Next Web, citing Semafor, 2026-10-01; fetched 2026-11-18 via TinyFish; verbatim excerpt)
+A final investment decision on Project Kilby, a huge gas-powered data centre in West Texas, could slip from the end of this year to 2027 because of state politics. Tim McDonnell reported the news for Semafor on Thursday.
+The project, near Pecos in the Permian Basin, will use about 2.67GW of on-site gas turbines to power a Microsoft data centre. Energy Forge One, a 50/50 joint venture between Chevron and Joulent, holds a 20-year power deal with Microsoft for the site, signed in June, and first power is planned for 2028.
+The likely delay follows Governor Greg Abbott's order last month to stop all new environmental permits for data centres. The pause lasts until state grid and water agencies finish audits, the Texas Tribune reported.
+Droog said Kilby is still on track to produce power by 2028. Early earthworks are under way while the developers finish building contracts and wait for permits.
+Its new chief financial officer, Michael Wortley, told Semafor the contracts were days or a couple of weeks from being signed. He also said he expects the project to get its permits.

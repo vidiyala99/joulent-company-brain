@@ -1,0 +1,82 @@
+National Grid Ventures: Contracted Power for US Large Load Customers
+Investor Relations, 1 July 2026
+
+"Our investment in Joulent is a disciplined, partnerled investment in contracted critical infrastructure for the AI-driven large load economy. Through National Grid Ventures, we are gaining exposure to a major source of electricity demand growth that diversifies our regional US exposure and is supported by strong partners. It extends National Grid's core strengths of investing in long-duration infrastructure with contractual cash flows and attractive riskadjusted returns."
+Zoë Yujnovich | Chief Executive
+
+Investment into new critical infrastructure growth opportunity
+· National Grid Ventures ("NGV") to invest $1.75 billion to secure a 35% interest in Joulent LLC ("Joulent"), as part of a broader strategic partnership.
+· Joulent will focus on developing contracted power generation and high voltage infrastructure for US large load customers, providing integrated solutions to help meet rapidly rising demand for reliable, scaled power at speed.
+· The foundational Project Kilby, is a 2.67 GW co-located power facility in West Texas that will provide dedicated electricity to a Microsoft-operated data centre campus under a 20-year power purchase agreement, and is a 50/50 partnership with Chevron Corporation. Development of the project is at an advanced stage with secured critical equipment including GE Vernova turbines and reserved EPC capacity, and it is targeting first power delivery in 2028.
+· Joulent also has a multi-GW pipeline of future projects, that could provide incremental growth opportunity over time.
+
+Investment structure
+Engine No.1 65%
+
+NG Ventures 35%
+
+Chevron 50%
+
+Joulent 50%
+
+100%
+
+2.67 GW Project Kilby
+
+Multi-GW project pipeline
+
+Key financial information
+The Joulent platform supports long-term contracted cash flows which offer the opportunity to earn attractive risk-adjusted returns in excess of National Grid's regulated returns.
+Joulent is expected to be free cash flow positive from the early 2030's, which could either help fund future projects or be distributed to the JV partners.
+A Final Investment Decision on Project Kilby is expected in 2026, with first power delivery in 2028.
+
+The Joulent solution
+· Access to long lead time equipment including natural gas turbines, battery storage, renewables integration and import/export grid connections where available.
+· Early mover advantage with detailed engineering to provide speed-topower
+· Strong relationships with leading strategic players across the large load value chain:
+o Chevron, a 50% delivery partner on the foundational Project Kilby o GE Vernova, a US based global leader in turbine, grid, and
+power generation technology o Caterpillar, a leading provider of industrial turbines o Bechtel, a global EPC firm contracted to Project Kilby o Microsoft, 20-year signed PPA on Project Kilby
+
+Sustainability considerations
+Balancing increasing demand, energy security, affordability and decarbonisation is a challenge facing the energy system.
+The Joulent platform provides an opportunity to support data centre demand in a way that does not compete with or increase costs to consumers.
+Flexible, co-located `Across-the-Meter' solutions can help unlock capacity faster, strengthen the existing grid and avoid burdening rate payers with costs.
+
+Project Kilby: initially delivering 2.67GW of firm power under a signed 20-year PPA with Microsoft
+345 kV
+Site leverages Permian natural gas in West Texas to deliver a large scale and cost-effective power solution for a Microsoft-operated data centre campus
+· Location: Reeves, Texas (the State is supportive of data centre driven demand growth)
+· Gas hub: Waha (Permian)
+· Power hub: ERCOT West
+· Fiber access: 8 miles
+· Future point of generator interconnection: 345 kV (16 miles from site)
+· 20-year signed power purchase agreement with Microsoft includes gas cost pass-through
+
+Local community
+· Project Kilby supports digital infrastructure, bringing significant economic benefits for the region
+· Expected to include more than $10 billion in state and local tax revenue and support for almost 2,000 jobs.
+· The plant is engineered to incorporate advanced air emissions control technologies, including Selective Catalytic Reduction systems designed to reduce NOx emissions, as well as measures to minimize noise and light impacts on surrounding communities.
+
+Robust development pipeline
+2.67 GW foundational project in 50/50 JV with Chevron Multi-GW pipeline of 100% owned projects Provides incremental growth opportunity over time
+
+Joulent's solution comprises co-located gas generation, battery storage, renewables integration and 'Across-the-Meter' grid connections
+
+Behind-the-meter · Initial deployment of gas turbines for speed-to-power · BESS to provide synthetic spinning reserve to support resilience and store excess generation · Future renewables generation coupled with long-duration BESS capability
+
+Data Centre
+
+Front-of-the-meter · Grid import/export when available to meet incremental data centre capacity or dispatch underutilised capacity into grid
+
+Important notice This document contains certain statements that are neither reported financial results nor other historical information. These statements are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These statements include information with respect to National Grid's financial condition, its results of operations and businesses, strategy, plans and objectives. Words such as `aims', `anticipates', `expects', `should', `intends', `plans', `believes', `outlook', `seeks', `estimates', `targets', `may', `will', `continue', `project' and similar expressions, as well as statements in the future tense, identify forward-looking statements. This document also references climate-related targets and climate-related risks which differ from conventional financial risks in that they are complex, novel and tend to involve projection over long term scenarios which are subject to significant uncertainty and change. Furthermore, this document, which is provided for information only, does not constitute summary financial statements and does not contain sufficient information to allow for as full an understanding of the results and state of affairs of National Grid, including the principal risks and uncertainties facing National Grid, as would be provided by the full Annual Report and Accounts, including in particular the Strategic Report section and the `Risk factors' section on pages 227 to 231 of National Grid's most recent Annual Report and Accounts for the year ended 31 March 2026. Copies of the most recent Annual Report and Accounts are available online at www.nationalgrid.com or from Equiniti Limited. Except as may be required by law or regulation, National Grid undertakes no obligation to update any of its forward-looking statements, which speak only as of the date of this document. The content of any website references herein do not form part of this document.
+
+Further information
+Andrew Downey Interim Director of Investor Relations M +44 (0) 7926 285 683 Andrew.Downey2@nationalgrid.com
+
+Tom Edwards Senior Investor Relations Officer M +44 (0) 7976 962 791 Tom.Edwards@nationalgrid.com
+
+Cerys Reece Investor Relations Manager M +44 (0) 7860 382 264 Cerys.Reece@nationalgrid.com
+
+nationalgrid.com/investors
+
+

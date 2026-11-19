@@ -1,0 +1,155 @@
+# Joulent public corpus for the brain. Files are under ../corpus/text/ (saved 2026-11-18).
+# tier: company (Joulent, its parent, its investor's own factsheet) | regulator (TCEQ) | news
+# date: publication date, or the page's sitemap lastmod for undated site pages.
+
+[[doc]]
+id = "joulent-home"
+file = "home.txt"
+url = "https://www.joulent.com/"
+publisher = "Joulent"
+date = "2026-07-15"
+tier = "company"
+
+[[doc]]
+id = "joulent-power-stack"
+file = "power-stack.txt"
+url = "https://www.joulent.com/power-stack"
+publisher = "Joulent"
+date = "2026-11-06"
+tier = "company"
+
+[[doc]]
+id = "joulent-about"
+file = "about-us.txt"
+url = "https://www.joulent.com/about-us"
+publisher = "Joulent"
+date = "2026-10-01"
+tier = "company"
+
+[[doc]]
+id = "joulent-launch-page"
+file = "in-the-news_joulent-launch.txt"
+url = "https://www.joulent.com/in-the-news/joulent-launch"
+publisher = "Joulent"
+date = "2026-06-22"
+tier = "company"
+
+[[doc]]
+id = "engine1-launch"
+file = "engine1-launch.txt"
+url = "https://engine1.com/transforming/articles/joulent-launch/"
+publisher = "Engine No. 1 (Joulent launch release)"
+date = "2026-06-22"
+tier = "company"
+
+[[doc]]
+id = "joulent-ngv-release"
+file = "in-the-news_strategic-investment.txt"
+url = "https://www.joulent.com/in-the-news/strategic-investment"
+publisher = "Joulent"
+date = "2026-07-01"
+tier = "company"
+
+[[doc]]
+id = "ngv-factsheet"
+file = "ngv-factsheet.txt"
+url = "https://cdn.prod.website-files.com/6933597e6a466aa603cbc811/6a8b4b9e2dc5695d44ed5534_NGV%20Factsheet%20-%20US%20Large%20Load%20Investment.pdf"
+publisher = "National Grid Ventures (linked from joulent.com)"
+date = "2026-07-01"
+tier = "company"
+
+[[doc]]
+id = "joulent-leadership-release"
+file = "in-the-news_grindal-wortley.txt"
+url = "https://www.joulent.com/in-the-news/grindal-wortley"
+publisher = "Joulent"
+date = "2026-10-01"
+tier = "company"
+
+[[doc]]
+id = "tceq-181895-notice"
+file = "tceq-181895-napd.txt"
+url = "https://www.tceq.texas.gov/downloads/permitting/air/bilingual/pending-permit-notices/181895-napd-english.pdf"
+publisher = "TCEQ"
+date = "2026-04-13"
+tier = "regulator"
+
+[[doc]]
+id = "tceq-181895-summary"
+file = "tceq-181895-pls.txt"
+url = "https://www.tceq.texas.gov/downloads/permitting/air/bilingual/pending-permit-notices/181895-pls-english.pdf"
+publisher = "TCEQ"
+date = "2025-10-24"
+tier = "regulator"
+
+[[doc]]
+id = "news-qz"
+file = "news-qz-2026-06-22.txt"
+url = "https://qz.com/chevron-microsoft-natural-gas-data-center-west-texas-062226"
+publisher = "Quartz"
+date = "2026-06-22"
+tier = "news"
+
+[[doc]]
+id = "news-people"
+file = "news-people-2026-06-22.txt"
+url = "https://people.com/chevron-strikes-deal-with-microsoft-to-power-massive-ai-data-center-12004206"
+publisher = "People"
+date = "2026-06-22"
+tier = "news"
+
+[[doc]]
+id = "news-startupfortune"
+file = "news-startupfortune-2026-06-23.txt"
+url = "https://startupfortune.com/chevron-and-microsoft-sign-a-20-year-gas-deal-that-turns-an-oil-major-into-an-ai-infrastructure-company/"
+publisher = "Startup Fortune"
+date = "2026-06-23"
+tier = "news"
+
+[[doc]]
+id = "news-aea"
+file = "news-aea-2026-06-30.txt"
+url = "https://www.americanenergyalliance.org/2026/06/american-natural-gas-is-fueling-the-ai-revolution/"
+publisher = "American Energy Alliance"
+date = "2026-06-30"
+tier = "news"
+
+[[doc]]
+id = "news-etdc"
+file = "news-etdc-2026-07-02.txt"
+url = "https://datacenters.economictimes.indiatimes.com/news/policy-land-power/national-grid-invests-1-75b-in-joulent-to-support-ai-data-centers/132130257"
+publisher = "ET Datacenters"
+date = "2026-07-02"
+tier = "news"
+
+[[doc]]
+id = "news-tnw"
+file = "news-tnw-2026-10-01.txt"
+url = "https://thenextweb.com/news/texas-politics-delay-chevron-microsoft-data-centre"
+publisher = "The Next Web (citing Semafor)"
+date = "2026-10-01"
+tier = "news"
+
+[[doc]]
+id = "news-cutrer"
+file = "news-cutrer-2026-10-01.txt"
+url = "https://datacenters.cutrerlabs.com/intel/2026-10-kilby-fid-may-slip-2027"
+publisher = "Texas AI Data Center Intelligence Hub"
+date = "2026-10-01"
+tier = "news"
+
+[[doc]]
+id = "news-insurancejournal"
+file = "news-insurancejournal-2026-11-02.txt"
+url = "https://amp.insurancejournal.com/news/southcentral/2026/11/02/891201.htm"
+publisher = "Insurance Journal (Bloomberg)"
+date = "2026-11-02"
+tier = "news"
+
+[[doc]]
+id = "news-ngh1"
+file = "news-ngh1-2026-11-08.txt"
+url = "https://www.tradingview.com/news/marketbeat:915b23912094b:0-national-grid-transco-h1-earnings-call-highlights/"
+publisher = "MarketBeat (National Grid H1 call)"
+date = "2026-11-08"
+tier = "news"

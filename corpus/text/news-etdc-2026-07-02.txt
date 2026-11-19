@@ -1,0 +1,3 @@
+SOURCE: https://datacenters.economictimes.indiatimes.com/news/policy-land-power/national-grid-invests-1-75b-in-joulent-to-support-ai-data-centers/132130257 (ET Datacenters, 2026-07-02; fetched 2026-11-18 via TinyFish; verbatim excerpt)
+* Investment supports Project Kilby, a 2.67 GW generation campus in Texas.
+Joulent's first project, Project Kilby, will be a 2.67 gigawatt (GW) natural gas-powered generation campus in Reeves County, Texas, developed in collaboration with Chevron subsidiary Energy Forge and GE Vernova. This facility is set to supply power to a Microsoft-operated data center campus under a 20-year power purchase agreement (PPA). Joulent has also secured a 50% ownership stake in Project Kilby.
